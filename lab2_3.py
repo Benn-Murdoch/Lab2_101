@@ -17,5 +17,3 @@ def swap_ends(text):
         return text
     # """Swaps the first and last character of a string."""
       
-
-print(swap_ends("beans"))
