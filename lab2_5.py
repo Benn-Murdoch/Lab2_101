@@ -4,4 +4,8 @@ def map_word_lengths(words):
     - Key: The string (word)
     - Value: The length of that string
     """
-    pass
+    Word_lengths_dict={}
+    for word in words: 
+        Word_lengths_dict[word] = len(word)
+    return Word_lengths_dict
+
